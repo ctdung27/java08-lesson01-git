@@ -1,6 +1,6 @@
 private int div(int a,int b){
 	if (b==0){
-	throw new ArithmeticExcrption();
+	throw new ArithmeticExcrption("/by zero");
 	}
 	return a/b;
 }
